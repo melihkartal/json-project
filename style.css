@@ -1,0 +1,23 @@
+h1 {
+    color: #222;
+  }
+  
+  
+  li {
+    text-align: center;
+    background: #f4f4f4;
+    border: 2px solid black;
+    list-style-type: none;
+  }
+  ul{height:300px; width:200px}
+  ul{overflow:visible; overflow-y:scroll;}
+  
+  li span:focus {
+    outline: 0;
+    border: 2px solid #007bff;
+    background: rgba(179, 207, 255, 0.52)
+  }
+  .clicked {
+    background: blue!important;
+  }
+  
